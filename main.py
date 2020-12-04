@@ -46,4 +46,5 @@ def hash(message):
     return mash
 
 if __name__ == '__main__':
-    print(hash(input("Mash of: ")))
+  while True:
+    print(hash(input("Mash of: "))+"\n")
